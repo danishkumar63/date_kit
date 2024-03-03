@@ -1,7 +1,7 @@
 name: date_kit
-description: A starting point for Dart libraries or applications.
+description: A Dart package to handle all the possible 
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/danishkumar63/date_kit
 
 environment:
   sdk: ^3.1.5
