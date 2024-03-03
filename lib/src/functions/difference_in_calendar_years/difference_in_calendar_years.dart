@@ -1,4 +1,3 @@
-
 /// Calculates the difference in calendar years between [startDate] and [endDate].
 ///
 /// [startDate]: The starting date.

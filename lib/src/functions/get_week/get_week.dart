@@ -21,7 +21,9 @@ int getWeek(
     weekStartsOn: weekStartsOn,
     firstWeekContainsDate: firstWeekContainsDate,
   );
-  double diff = (weekStart.millisecondsSinceEpoch - weekYearStart.millisecondsSinceEpoch).toDouble();
+  double diff =
+      (weekStart.millisecondsSinceEpoch - weekYearStart.millisecondsSinceEpoch)
+          .toDouble();
   double millisecondsInWeek = 7 * 86400000;
   return (diff / millisecondsInWeek).round() + 1;
 }

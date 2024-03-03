@@ -2,7 +2,6 @@ import 'package:date_kit/date_kit.dart' as dk;
 
 /// Extension on DateTime class providing a collection of utility methods for date and time manipulation.
 extension DateTimeExtension on DateTime {
-  
   /// Adds the specified number of business days to the current date.
   DateTime addBusinessDays(int days) {
     return dk.addBusinessDays(this, days);

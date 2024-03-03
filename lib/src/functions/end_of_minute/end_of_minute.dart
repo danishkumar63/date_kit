@@ -9,13 +9,5 @@ DateTime endOfMinute(
   DateTime date,
 ) {
   return DateTime(
-    date.year,
-    date.month,
-    date.day,
-    date.hour,
-    date.minute,
-    59,
-    999,
-    999
-  );
+      date.year, date.month, date.day, date.hour, date.minute, 59, 999, 999);
 }

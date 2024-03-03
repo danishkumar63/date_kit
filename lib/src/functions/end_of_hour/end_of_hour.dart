@@ -8,14 +8,5 @@
 DateTime endOfHour(
   DateTime date,
 ) {
-  return DateTime(
-    date.year,
-    date.month,
-    date.day,
-    date.hour,
-    59,
-    59,
-    999,
-    999
-  );
+  return DateTime(date.year, date.month, date.day, date.hour, 59, 59, 999, 999);
 }

@@ -8,14 +8,6 @@ DateTime setDay(
   DateTime date,
   int day,
 ) {
-  return DateTime(
-    date.year,
-    date.month,
-    day,
-    date.hour,
-    date.minute,
-    date.second,
-    date.millisecond,
-    date.microsecond
-  );
+  return DateTime(date.year, date.month, day, date.hour, date.minute,
+      date.second, date.millisecond, date.microsecond);
 }
