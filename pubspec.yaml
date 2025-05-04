@@ -1,6 +1,6 @@
 name: date_kit
 description: A comprehensive Dart package for DateTime operations, with a rich set of functions and extensions for seamless manipulation and formatting.
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/danishkumar63/date_kit
 issue_tracker: https://github.com/danishkumar63/date_kit/issues
 
@@ -9,8 +9,8 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  intl: ^0.19.0
+  intl: ^0.20.2
 
 dev_dependencies:
-  lints: ^2.0.0
+  lints: ^5.1.1
   test: ^1.21.0
